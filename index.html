@@ -1,11 +1,18 @@
-﻿---
-layout: default
-title: hello world
 ---
-<h2>{{ page.title }}</h2>
-<p>最新文章</p>
-<ul>
-    {% for post in site.posts %}
-    <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
+layout: default
+---
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="button button-primary">Read More</a>
+    </article>
+  {% endfor %}
+</div>
