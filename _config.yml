@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-name: Gearoid O'Connor
-markdown: redcarpet
-exclude: ["node_modules", "gulpfile.js", "package.json"]
-=======
 #
 # This file contains configuration flags to customize your site
 #
@@ -84,4 +79,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
->>>>>>> dev
