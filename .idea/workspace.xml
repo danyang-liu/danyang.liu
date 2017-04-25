@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4acad802-7c24-470a-8bef-e3ef8e8eb542" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CNAME" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_variables.scss" afterPath="$PROJECT_DIR$/_sass/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_jekyll-mono.scss" afterPath="$PROJECT_DIR$/_sass/_jekyll-mono.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -72,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_jekyll-mono.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_jekyll-mono.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_sass/_jekyll-mono.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="241" column="35" lean-forward="false" selection-start-line="241" selection-start-column="29" selection-end-line="241" selection-end-column="35" />
+            <state relative-caret-position="530">
+              <caret line="43" column="6" lean-forward="false" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -85,18 +83,18 @@
       <file leaf-file-name="_reset.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/_reset.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-27">
+            <state relative-caret-position="-233">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+            <state relative-caret-position="629">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -138,6 +136,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_sass/_variables.scss" />
+        <option value="$PROJECT_DIR$/_sass/_jekyll-mono.scss" />
       </list>
     </option>
   </component>
@@ -384,12 +383,12 @@
       <option name="presentableId" value="Default" />
       <updated>1493017168030</updated>
       <workItem from="1493017170095" duration="1353000" />
-      <workItem from="1493091193954" duration="625000" />
+      <workItem from="1493091193954" duration="898000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1978000" />
+    <option name="totallyTimeSpent" value="2251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="264" y="24" width="1400" height="970" extended-state="0" />
@@ -719,26 +718,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_jekyll-mono.scss">
+    <entry file="file://$PROJECT_DIR$/_sass/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="241" column="35" lean-forward="false" selection-start-line="241" selection-start-column="29" selection-end-line="241" selection-end-column="35" />
+        <state relative-caret-position="629">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_reset.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
+        <state relative-caret-position="-233">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_variables.scss">
+    <entry file="file://$PROJECT_DIR$/_sass/_jekyll-mono.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        <state relative-caret-position="530">
+          <caret line="43" column="6" lean-forward="false" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
           <folding />
         </state>
       </provider>
