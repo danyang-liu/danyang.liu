@@ -4,31 +4,26 @@ title: About
 permalink: /about/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet urna eu dolor placerat varius. Vivamus eros augue, consequat id scelerisque nec, fringilla in est. Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet urna eu dolor placerat varius. Vivamus eros augue, consequat id scelerisque nec, fringilla in est. Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula.  
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet urna eu dolor placerat varius. Vivamus eros augue, consequat id scelerisque nec, fringilla in est. Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula. 
-
-Sed faucibus felis purus, sed convallis leo dictum vehicula.
+I am a joint-phd student of University of Science and technology of China and Microsoft Research Asia. My reasearch interests are recommend system, data mining, machine learning.
 
 ## Education
 
-* ABC degree from XYZ University.
-* ABC degree from XYZ University.
-* ABC degree from XYZ University.
+* B.S. degree from University of Science and Technology of China.
 
-## Roles
+## Experiences
 
-Founder, ABC Organisation
+* Research Intern at Microsoft Research Asia
 
 ## Skills
 
-* **Skill 1** - `Skill` / `Skill` / `Skill` / `Skill`
-* **Skill 2** - `Skill` / `Skill` / `Skill` / `Skill` / `Skill` / `Skill` / `Skill`
-* **Skill 3** - `Skill` / `Skill` / `Skill`
-* **Skill 4** - `Skill` / `Skill` / `Skill` 
-* **Skill 5** - `Skill`
-* **Skill 6** - `Skill` / `Skill` 
+* **Skill 1** - Python
+* **Skill 2** - Data Mining / Machine Learning
+* **Skill 3** - C / C++
+* **Skill 4** - Git
+* **Skill 5** - C# / .Net
+* **Skill 6** - js / html / css
     
+## Publication
     
 ## Achievements
 
@@ -52,4 +47,5 @@ Founder, ABC Organisation
 
 ## Contact me
 
-[agarwal.akshay.akshay8@gmail.com](mailto:agarwal.akshay.akshay8@gmail.com)
+* [ldy591@mail.ustc.edu.cn](mailto:agarwal.akshay.akshay8@gmail.com)
+* [danyangliucs@gmail.com](mailto:agarwal.akshay.akshay8@gmail.com)
