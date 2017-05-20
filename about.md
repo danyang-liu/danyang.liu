@@ -32,5 +32,5 @@ I am a joint-phd student of University of Science and technology of China and Mi
 
 ## Contact me
 
-* [ldy591@mail.ustc.edu.cn](mailto:agarwal.akshay.akshay8@gmail.com)
-* [danyangliucs@gmail.com](mailto:agarwal.akshay.akshay8@gmail.com)
+* [ldy591@mail.ustc.edu.cn](mailto:ldy591@mail.ustc.edu.cn)
+* [danyangliucs@gmail.com](mailto:danyangliucs@gmail.com)
