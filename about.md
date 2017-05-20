@@ -25,25 +25,10 @@ I am a joint-phd student of University of Science and technology of China and Mi
     
 ## Publication
     
-## Achievements
+## Awards
 
-
-* [**This is my first achievement**](#) 
-   
-   Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula.
-
-***
-
-* [**This is my second achievement**](#) 
-
-    Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula.
-
-***
-
-* [**This is my third achievement**](#) 
-
-   Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula
-
+* Sliver award of outstanding student in University of Science and Technology of China 
+* Outstanding graduate student of University of Science and Technology of China
 
 ## Contact me
 
