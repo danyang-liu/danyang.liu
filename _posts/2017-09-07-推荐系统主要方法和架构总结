@@ -1,0 +1,35 @@
+---
+layout: post
+title: 推荐系统主要方法和架构总结
+author: Danyang Liu
+---
+
+推荐系统有很多算法，本文主要总结了推荐系统的一些主要方法，和它们之间的关系。
+
+# 推荐系统主要方法
+-----
+
+
+## 一.content-based 方法
+    它的核型是根据user以前喜欢的item,推荐相似的item。
+    
+    CB的过程一般包括以下三步：
+    
+    1. Item Representation：为每个item抽取出一些特征（也就是item的content了）来表示此item；
+    
+    2. Profile Learning：利用一个用户过去喜欢（及不喜欢）的item的特征数据，来学习出此用户的喜好特征（profile）；
+    
+    3. Recommendation Generation：通过比较上一步得到的用户profile与候选item的特征，为此用户推荐一组相关性最大的item。
+    
+## 二.基于CF的方法
+
+### 1.neighborhood-based 方法
+    分为 user-user 和 item-item 两类。
+
+### 2.model-based 方法
+
+#### 基于矩阵分解的方法
+    包含SVD SVD++ timeSVD++等
+    
+## 三.Context-based 方法
+    这种方法是在（User, Item）-> (Rating)的基础上，考虑加上情景因素，形式为（User，Item，Context）-> (Rating)。

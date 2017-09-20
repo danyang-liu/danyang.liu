@@ -1,0 +1,11 @@
+---
+layout: post
+title: librec源代码解析
+author: Danyang Liu
+---
+
+librec是基于java的优秀的推荐系统库，学习librec有助于很好的理解经典的推荐算法。
+
+### 数据结构：
+
+## 算法：
