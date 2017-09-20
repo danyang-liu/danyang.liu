@@ -32,8 +32,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-09-20-librec源代码解析一.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="356">
-                <caret line="53" column="48" lean-forward="false" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+              <first_editor relative-caret-position="453">
+                <caret line="80" column="144" lean-forward="false" selection-start-line="80" selection-start-column="144" selection-end-line="80" selection-end-column="144" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -233,7 +233,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="_site" />
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alg" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -431,12 +435,12 @@
       <workItem from="1493091193954" duration="898000" />
       <workItem from="1495201388701" duration="4511000" />
       <workItem from="1504752491936" duration="6067000" />
-      <workItem from="1504842585554" duration="8128000" />
+      <workItem from="1504842585554" duration="8594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20957000" />
+    <option name="totallyTimeSpent" value="21423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1399" height="832" extended-state="0" />
@@ -808,8 +812,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-09-20-librec源代码解析一.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="356">
-            <caret line="53" column="48" lean-forward="false" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+          <first_editor relative-caret-position="453">
+            <caret line="80" column="144" lean-forward="false" selection-start-line="80" selection-start-column="144" selection-end-line="80" selection-end-column="144" />
             <folding />
           </first_editor>
           <second_editor />
