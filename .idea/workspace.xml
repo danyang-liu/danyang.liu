@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4acad802-7c24-470a-8bef-e3ef8e8eb542" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/alg/asvd++/n1.png" afterPath="$PROJECT_DIR$/images/alg/asvd++/n1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/alg/asvd++/n2.png" afterPath="$PROJECT_DIR$/images/alg/asvd++/n2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/alg/asvd++/n3.png" afterPath="$PROJECT_DIR$/images/alg/asvd++/n3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/alg/asvd++/n4.png" afterPath="$PROJECT_DIR$/images/alg/asvd++/n4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-09-20-librec源代码解析一:矩阵分解模型基础.md" afterPath="$PROJECT_DIR$/_posts/2017-09-20-librec源代码解析一:矩阵分解模型基础.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -34,8 +29,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-09-20-librec源代码解析一:矩阵分解模型基础.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="548">
-                <caret line="182" column="0" lean-forward="true" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
+              <first_editor relative-caret-position="-1752">
+                <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -464,12 +459,12 @@
       <workItem from="1495201388701" duration="4511000" />
       <workItem from="1504752491936" duration="6067000" />
       <workItem from="1504842585554" duration="14891000" />
-      <workItem from="1505998021343" duration="975000" />
+      <workItem from="1505998021343" duration="1319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28695000" />
+    <option name="totallyTimeSpent" value="29039000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1399" height="832" extended-state="0" />
@@ -835,8 +830,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-09-20-librec源代码解析一:矩阵分解模型基础.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="548">
-            <caret line="182" column="0" lean-forward="true" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
+          <first_editor relative-caret-position="-1752">
+            <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
