@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4acad802-7c24-470a-8bef-e3ef8e8eb542" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/alg/svd++/n1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/alg/svd++/n2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/alg/svd++/n3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/alg/svd++/n4.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-09-20-librec源代码解析一.md" afterPath="$PROJECT_DIR$/_posts/2017-09-20-librec源代码解析一.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -20,7 +24,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="315">
-                <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+                <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -32,8 +36,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-09-20-librec源代码解析一.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="453">
-                <caret line="80" column="144" lean-forward="false" selection-start-line="80" selection-start-column="144" selection-end-line="80" selection-end-column="144" />
+              <first_editor relative-caret-position="145">
+                <caret line="93" column="74" lean-forward="false" selection-start-line="93" selection-start-column="74" selection-end-line="93" selection-end-column="74" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -251,6 +255,28 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alg" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="svd++" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="danyang.liu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="danyang.liu" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="_sass" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -435,12 +461,12 @@
       <workItem from="1493091193954" duration="898000" />
       <workItem from="1495201388701" duration="4511000" />
       <workItem from="1504752491936" duration="6067000" />
-      <workItem from="1504842585554" duration="8594000" />
+      <workItem from="1504842585554" duration="10798000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21423000" />
+    <option name="totallyTimeSpent" value="23627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1399" height="832" extended-state="0" />
@@ -802,7 +828,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="315">
-            <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
             <folding />
           </first_editor>
           <second_editor />
@@ -812,8 +838,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-09-20-librec源代码解析一.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="453">
-            <caret line="80" column="144" lean-forward="false" selection-start-line="80" selection-start-column="144" selection-end-line="80" selection-end-column="144" />
+          <first_editor relative-caret-position="145">
+            <caret line="93" column="74" lean-forward="false" selection-start-line="93" selection-start-column="74" selection-end-line="93" selection-end-column="74" />
             <folding />
           </first_editor>
           <second_editor />
