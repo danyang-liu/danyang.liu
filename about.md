@@ -10,6 +10,13 @@ I am a joint-phd student of University of Science and technology of China and Mi
 
 * B.S. degree from University of Science and Technology of China.
 
+## Mentors
+Dr. [Xing Xie](https://www.microsoft.com/en-us/research/people/xingx/)
+
+Dr. [Guangzhong Sun](http://staff.ustc.edu.cn/~gzsun/)
+
+Dr. [Fuzheng Zhang](https://www.microsoft.com/en-us/research/people/fuzzhang/)
+
 ## Experiences
 
 * Research Intern at Microsoft Research Asia
