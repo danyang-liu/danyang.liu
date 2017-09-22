@@ -1,0 +1,7 @@
+---
+layout: post
+title: librec源代码解析二：其他矩阵分解相关模型
+author: Danyang Liu
+---
+
+本文结合librec源代码，总结一些其他矩阵分解相关的推荐模型
