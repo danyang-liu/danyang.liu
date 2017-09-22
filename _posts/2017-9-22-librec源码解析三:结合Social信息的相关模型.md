@@ -59,4 +59,47 @@ CF方法是推荐系统非常流行的方法，但是它有数据稀疏和冷启
 
 ![6](../images/alg/social/trustmf/t6.png)
 
+总结：
+
+这个模型可以从用户的社会行为学习用户的偏好（不只是从评分行为），Truster Model学到了，用户在评分是受别人的影响，Trustee Model学到了，用户的评分对别人的影响，Truster-MF把两者结合，试图给两个用户群都提供高质量的推荐。
+
+librec提供了这三种模型的选择，在predict()函数中可以清楚的看到：
+
+```java
+    switch (model) {
+        case "Tr":
+            predictRating = DenseMatrix.rowMult(trusterUserTrusterFactors, userIdx, trusterItemFactors, itemIdx);
+            break;
+        case "Te":
+            predictRating = DenseMatrix.rowMult(trusteeUserTrusteeFactors, userIdx, trusteeItemFactors, itemIdx);
+            break;
+        case "T":
+        default:
+            DenseVector userVector = trusterUserTrusterFactors.row(userIdx).add(trusteeUserTrusteeFactors.row(userIdx, false));
+            DenseVector itemVector = trusterItemFactors.row(itemIdx).add(trusteeItemFactors.row(itemIdx, false));
+            predictRating = userVector.inner(itemVector) / 4;
+    }
+```
+
+在代码中可以清晰看到，Truster-MF模型是独立训练两个模型
+
+```java
+    protected void trainModel() throws LibrecException {
+        switch (model) {
+            case "Tr":
+                TrusterMF();
+                break;
+            case "Te":
+                TrusteeMF();
+                break;
+            case "T":
+            default:
+                TrusterMF();
+                TrusteeMF();
+        }
+    }
+```
+
+
+
 
