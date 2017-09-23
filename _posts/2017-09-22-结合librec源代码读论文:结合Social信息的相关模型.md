@@ -161,13 +161,54 @@ t<sub>u,v</sub>_hat =W<sub>v</sub><sup>T</sup> * p<sub>u</sub>得到。
 
 ![12](../images/alg/social/soreg/s2.png)
 
-其中𝜶>0,![13](../images/alg/social/soreg/s4.png)
+其中𝜶>0,![14](../images/alg/social/soreg/s4.png)代表来用户u<sub>i</sub>的朋友集合，+／-代表单项关系（如果关系真的为单项，这个公式等同于trust关系，所以模型的通用的），
+如果是social friendship关系，+/-实际是一样的。这个正则化目的是最小化用户和他的朋友之间的差距。考虑到和朋友相似性的差别，应当加入相似性修正项，如下式：
 
 ![13](../images/alg/social/soreg/s3.png)
+
+Sim(i,f)很常见了，多用VSS PCC方法，不在赘述。
+
 #### Individual-based Regularization
 
+上一个正则化系数考虑用户和他的朋友们属性的平均值之间的关系，实际上忽略了个体性差异，用户的朋友可能会有非常多样的品味，需要有另一个正则化项来体现这种情况：
 
+![15](../images/alg/social/soreg/s5.png)
 
+原理很简单，根据用户和他的朋友们之间的相似程度，来进行逐个的限制，是的用户不同程度的缩小和朋友之间属性的差异。
 
+代码上，多了这两个在训练过程中的修正：
 
+```java
+for (int userIdx = 0; userIdx < numUsers; userIdx++) {
+     // out links: F+
+    SparseVector userOutLinks = socialMatrix.row(userIdx);
+
+    for (int userOutIdx : userOutLinks.getIndex()) {
+        double userOutSim = userSocialCorrs.get(userIdx, userOutIdx);
+        if (!Double.isNaN(userOutSim)) {
+            for (int factorIdx = 0; factorIdx < numFactors; factorIdx++) {
+            double errorOut = userFactors.get(userIdx, factorIdx) - userFactors.get(userOutIdx, factorIdx);
+            tempUserFactors.add(userIdx, factorIdx, regSocial * userOutSim * errorOut);
+
+            loss += regSocial * userOutSim * errorOut * errorOut;
+            }
+        }
+    }
+
+    // in links: F-
+    SparseVector userInLinks = socialMatrix.column(userIdx);
+    for (int userInIdx : userInLinks.getIndex()) {
+        double userInSim = userSocialCorrs.get(userIdx, userInIdx);
+        if (!Double.isNaN(userInSim)) {
+            for (int factorIdx = 0; factorIdx < numFactors; factorIdx++) {
+                double errorIn = userFactors.get(userIdx, factorIdx) - userFactors.get(userInIdx, factorIdx);
+                tempUserFactors.add(userIdx, factorIdx, regSocial * userInSim * errorIn);
+
+                loss += regSocial * userInSim * errorIn * errorIn;
+            }
+        }
+    }
+} // end of for loop
+
+```
 
