@@ -4,18 +4,18 @@ title: About
 permalink: /about/
 ---
 
-I am a joint-phd student of University of Science and technology of China and Microsoft Research Asia. My reasearch interests are recommend system, data mining, machine learning.
+I am currently a joint-phd student of University of Science and technology of China and Microsoft Research Asia. My reasearch interests are recommend system, data mining, machine learning.
 
 ## Education
 
-* B.S. degree from University of Science and Technology of China.
+* B.S. degree in Computer Science, University of Science and Technology of China. 2013-2017
 
 ## Mentors
-Dr. [Xing Xie](https://www.microsoft.com/en-us/research/people/xingx/)
+* Dr. [Xing Xie](https://www.microsoft.com/en-us/research/people/xingx/)
 
-Dr. [Guangzhong Sun](http://staff.ustc.edu.cn/~gzsun/)
+* Dr. [Guangzhong Sun](http://staff.ustc.edu.cn/~gzsun/)
 
-Dr. [Fuzheng Zhang](https://www.microsoft.com/en-us/research/people/fuzzhang/)
+* Dr. [Fuzheng Zhang](https://www.microsoft.com/en-us/research/people/fuzzhang/)
 
 ## Experiences
 

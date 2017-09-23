@@ -15,8 +15,8 @@ author: Danyang Liu
 ## item-based 方法
     由于 item-based 相对于 user-based 方法更容易解释背后的推荐原理，因为用户更加熟悉和他之前购买过的东西的属性，相对于和他相似的用户购买过的东西，这方面更好解释，所以近来 item-based 方法更加常用。
 
-
+[//PCC Person Correlation Coeffcient VSS Vector Space Similiarity]:<>
     
-    
+未完待续...
     
     
