@@ -25,7 +25,7 @@ CF方法是推荐系统非常流行的方法，但是它有数据稀疏和冷启
 
 ![1](../images/alg/social/trustmf/t1.png)
 
-同样地，信任矩阵T（T_{i,j} 代表用户i 对用户j 的信任值，因为用户j 可能对用户i 的信任值不同，因此，矩阵T 不是对称的）可以由 用户信任矩阵 B 和 用户被信任矩阵 W
+同样地，信任矩阵T（T<sub>i,j</sub> 代表用户i 对用户j 的信任值，因为用户j 可能对用户i 的信任值不同，因此，矩阵T 不是对称的）可以由 用户信任矩阵 B 和 用户被信任矩阵 W
 相乘得到。
 
 通过最小化下面的损失函数：
@@ -110,6 +110,37 @@ librec提供了这三种模型的选择，在predict()函数中可以清楚的�
 作者通过观察几个带有Social Trust的数据集，得到了两个观察结论
 
 ![7](../images/alg/social/trustsvd/t1.png)
+
+观察一：信任信息非常稀疏，应当作为评分信息的补充
+
+观察二：用户的评分和他的social neighbor的平均评分在基于 trust-alike 关系的基础下具有弱正相关性，在基于 trust 关系的基础下具有强正相关性
+
+什么是trust-alike 关系，在 FilmTrust 和 Flixster 这两个数据集，信任关系不是特别明确，或者说比 Trust 关系更弱（更noisy）
+作者定义这种不是很强的信任关系为Trust-alike 关系。这两个数据的用户评分和他的Social neighbor评分之间的关系均分分别为0.183和
+0.063呈现弱相关性，而另外两个数据集分别为0.446和0.322，呈现强相关性，由此得到这个结论。
+
+受SVD++模型启发，作者在模型中，把trust-alike信息当作隐式信息，形式和SVD++相同：
+
+![8](../images/alg/social/trustsvd/t2.png)
+
+这里的W<sub>v</sub> 是对特定用户v,他被用户u信任的隐因子向量（trustee）。
+
+除了隐式信息，显示信息形式和用户的因子空间共享因子空间，从而架起两个矩阵信息结合的桥梁，形式不变，只是在训练时用到两个矩阵信息联合训练。
+t<sub>u,v</sub>_hat =W<sub>v</sub><sup>T</sup> * p<sub>u</sub>得到。 
+
+另外,一种weighted-𝛌-regularization的方法能更有效防止参数过拟合，最小化损失方程为；
+
+![9](../images/alg/social/trustsvd/t3.png)
+
+参数更新；
+
+![10](../images/alg/social/trustsvd/t4.png)
+
+
+
+
+
+
 
 
 

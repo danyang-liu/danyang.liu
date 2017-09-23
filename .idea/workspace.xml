@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4acad802-7c24-470a-8bef-e3ef8e8eb542" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2017-09-20-librec源代码解析一:矩阵分解模型基础.md" afterPath="$PROJECT_DIR$/_posts/2017-09-20-结合librec源代码读论文:矩阵分解模型基础.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2017-09-22-librec源码解析三:结合Social信息的相关模型.md" afterPath="$PROJECT_DIR$/_posts/2017-09-22-结合librec源代码读论文:结合Social信息的相关模型.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2017-09-22-librec源码解析二:其他矩阵分解相关模型.md" afterPath="$PROJECT_DIR$/_posts/2017-09-22-结合librec源代码读论文:其他矩阵分解相关模型.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-09-22-结合librec源代码读论文:结合Social信息的相关模型.md" afterPath="$PROJECT_DIR$/_posts/2017-09-22-结合librec源代码读论文:结合Social信息的相关模型.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,8 +55,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-09-22-结合librec源代码读论文:结合Social信息的相关模型.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="479">
-                <caret line="112" column="0" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+              <first_editor relative-caret-position="404">
+                <caret line="140" column="0" lean-forward="true" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -451,6 +448,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4acad802-7c24-470a-8bef-e3ef8e8eb542" name="Default" comment="" />
@@ -463,12 +463,12 @@
       <workItem from="1495201388701" duration="4511000" />
       <workItem from="1504752491936" duration="6067000" />
       <workItem from="1504842585554" duration="14891000" />
-      <workItem from="1505998021343" duration="14014000" />
+      <workItem from="1505998021343" duration="18267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41734000" />
+    <option name="totallyTimeSpent" value="45987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="27" width="1399" height="828" extended-state="0" />
@@ -856,8 +856,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-09-22-结合librec源代码读论文:结合Social信息的相关模型.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="479">
-            <caret line="112" column="0" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+          <first_editor relative-caret-position="404">
+            <caret line="140" column="0" lean-forward="true" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
