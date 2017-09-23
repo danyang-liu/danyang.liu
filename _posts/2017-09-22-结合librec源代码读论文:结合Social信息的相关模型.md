@@ -1,6 +1,6 @@
 ---
 layout: post
-title: librec源代码解析三：结合Social信息的相关模型
+title: 结合librec源代码读论文:结合Social信息的相关模型
 author: Danyang Liu
 ---
 
@@ -99,6 +99,19 @@ librec提供了这三种模型的选择，在predict()函数中可以清楚的�
         }
     }
 ```
+
+### TrustSVDRecommender
+
+参考论文：[Guo G, Zhang J, Yorke-Smith N. TrustSVD: Collaborative Filtering with Both the Explicit and Implicit Influence of User Trust and of Item Ratings[C]//Aaai 2015
+](https://pdfs.semanticscholar.org/5d29/fd7fdd1323b07a7f6b178253511f0638c998.pdf)
+
+本文在SVD++ 的基础上，认为Social Trust信息也可以像SVD++ 一样，把信任信息的显式信息和隐式信息加入到模型中。同样为了更好的解决CF的两大问题：稀疏性和冷启动。
+
+作者通过观察几个带有Social Trust的数据集，得到了两个观察结论
+
+![7](../images/alg/social/trustsvd/t1.png)
+
+
 
 
 
