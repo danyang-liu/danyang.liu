@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4acad802-7c24-470a-8bef-e3ef8e8eb542" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/alg/other/wrmf/w1.png" afterPath="$PROJECT_DIR$/images/alg/other/wrmf/w1.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-09-24-结合librec源代码读论文:名字没总结好系列.md" afterPath="$PROJECT_DIR$/_posts/2017-09-24-结合librec源代码读论文:名字没总结好系列.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -56,8 +55,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-09-24-结合librec源代码读论文:名字没总结好系列.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="450">
-                <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <first_editor relative-caret-position="488">
+                <caret line="60" column="109" lean-forward="true" selection-start-line="60" selection-start-column="109" selection-end-line="60" selection-end-column="109" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -468,12 +467,12 @@
       <workItem from="1495201388701" duration="4511000" />
       <workItem from="1504752491936" duration="6067000" />
       <workItem from="1504842585554" duration="14891000" />
-      <workItem from="1505998021343" duration="27812000" />
+      <workItem from="1505998021343" duration="29280000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55532000" />
+    <option name="totallyTimeSpent" value="57000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="27" width="1399" height="828" extended-state="0" />
@@ -871,8 +870,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-09-24-结合librec源代码读论文:名字没总结好系列.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="450">
-            <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <first_editor relative-caret-position="488">
+            <caret line="60" column="109" lean-forward="true" selection-start-line="60" selection-start-column="109" selection-end-line="60" selection-end-column="109" />
             <folding />
           </first_editor>
           <second_editor />
